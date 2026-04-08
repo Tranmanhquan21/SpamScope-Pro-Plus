@@ -1,0 +1,69 @@
+==========================================================================
+                SPAMSCOPE V5.2 PRO - USER GUIDE
+        (Multi-Threaded Discord Automation & Monitoring Tool)
+==========================================================================
+
+SECTION 1: GENERAL INTRODUCTION
+-------------------------------
+SpamScope v5.2 Pro is a tool that helps send multi-threaded messages on Discord,
+integrating a real-time monitoring system and automatic thread optimization.
+
+SECTION 2: SETUP STEPS
+---------------------
+1. Token: Paste your User Token into the field marked (*).
+2. Message Content: Enter your message into the text box on the right.
+3. Channel IDs: Enter channel IDs into the 9 corresponding fields.
+4. Add Channel: Use the "Quick Add" section to add unlimited additional channels.
+5. Cooldown (Rest): Set the rest time in seconds (Recommended: >60 seconds).
+
+SECTION 3: CONTROL AND OPERATION
+--------------------------------
+- [START]: Activate all configured threads.
+- [PAUSE]: Stop sending messages but keep the countdown active.
+- [STOP]: Completely terminate all running processes.
+- [SAVE CONFIG]: Remember Token, IDs, and Message for next use.
+- [HIDE/SHOW LOG]: Minimize interface to optimize screen space.
+
+SECTION 4: EXPLANATION OF STATISTICS PARAMETERS
+-----------------------------------------------
+The system displays data directly in the Stats panel:
+- (✓) Success: Number of messages successfully sent to the server.
+- (✗) Error: Failed messages (due to invalid token, wrong ID, or no permissions).
+- (↑) Total: Total number of messages processed by the system.
+
+SECTION 5: IMPORTANT NOTES (MUST READ)
+-------------------------------------
+1. SECURITY: The tool is encrypted using PyArmor technology. All configuration
+   data is stored locally on your computer only.
+2. SAFETY: Avoid spamming too fast to minimize the risk of Discord account
+   detection (Self-bot Policy).
+3. ANTIVIRUS: Due to the code encryption protection mechanism, some antivirus
+   software may report false positives. Please select "Trust/Allow" to use.
+
+--------------------------------------------------------------------------
+Version: v5.2 Pro (Build 2026)
+Developed by: MQuinn
+==========================================================================
+==========================================================================
+                HOW TO GET PARAMETERS (TOKEN & ID)
+==========================================================================
+
+1. HOW TO GET USER TOKEN (EXTREMELY IMPORTANT):
+   - Step 1: Log in to Discord on Chrome/Brave/Edge browser.
+   - Step 2: Press [F12] (or Ctrl+Shift+I) to open Developer Tools.
+   - Step 3: Select the [Network] tab.
+   - Step 4: Type "science" in the search box (Filter).
+   - Step 5: Press F5 to reload the Discord page.
+   - Step 6: Click on the "science" line that appears, select [Headers] tab.
+   - Step 7: Find the "authorization" line. The string after it is your TOKEN.
+   (Note: Never share this code with others to avoid losing your account).
+
+2. HOW TO GET CHANNEL ID:
+   - Step 1: Open Discord (App or Web).
+   - Step 2: Go to [User Settings] -> [Advanced].
+   - Step 3: Enable [Developer Mode].
+   - Step 4: Go back to the chat screen, right-click on the Channel name where you want to send messages.
+   - Step 5: Select [Copy Channel ID].
+   - Step 6: Paste the ID into the Channel field in the software.
+
+==========================================================================
